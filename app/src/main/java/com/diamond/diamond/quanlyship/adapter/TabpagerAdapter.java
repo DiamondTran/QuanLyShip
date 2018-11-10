@@ -10,8 +10,9 @@ import com.diamond.diamond.quanlyship.fragment.FoodFragment;
 import com.diamond.diamond.quanlyship.fragment.OtherFragment;
 
 public class TabpagerAdapter extends FragmentStatePagerAdapter {
-String[] tabarray = new String[]{"Food","Drink","Other"};
-Integer tabnumber =3;
+    String[] tabarray = new String[]{"Food", "Drink", "Other"};
+    Integer tabnumber = 3;
+
     public TabpagerAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -24,16 +25,15 @@ Integer tabnumber =3;
 
     @Override
     public Fragment getItem(int position) {
-        switch (position)
-        {
+        switch (position) {
             case 0:
-                FoodFragment foodFragment= new FoodFragment();
+                FoodFragment foodFragment = new FoodFragment();
                 return foodFragment;
             case 1:
-                DrinkFragment drinkFragment= new DrinkFragment();
+                DrinkFragment drinkFragment = new DrinkFragment();
                 return drinkFragment;
             case 2:
-                OtherFragment otherFragment= new OtherFragment();
+                OtherFragment otherFragment = new OtherFragment();
                 return otherFragment;
         }
         return null;
