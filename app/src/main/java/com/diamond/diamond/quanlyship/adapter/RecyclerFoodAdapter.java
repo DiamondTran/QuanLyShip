@@ -14,11 +14,11 @@ import com.diamond.diamond.quanlyship.model.Food;
 
 import java.util.List;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
+public class RecyclerFoodAdapter extends RecyclerView.Adapter<RecyclerFoodAdapter.MyViewHolder> {
 private Context context;
 private List<Food> foodList;
 
-    public RecyclerViewAdapter(Context context, List<Food> foodList) {
+    public RecyclerFoodAdapter(Context context, List<Food> foodList) {
         this.context = context;
         this.foodList = foodList;
     }

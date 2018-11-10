@@ -39,7 +39,13 @@ List<Food> listf;
         listf.add(new Food(R.drawable.ngo,"Ngô Nướng","16.000"));
         listf.add(new Food(R.drawable.thitxien,"Thịt Xiên","7.000"));
 
-        RecyclerView recyclerView= (RecyclerView)
+        RecyclerView recyclerView= (RecyclerView) getView().findViewById(R.id.recyclerview);
+        // đấy bạn làm thêm gì thì bjn làm đi chứ chạy lên là chết luôn ở màn hình này rồi
+        // bạn k sửa đc à
+        //biết m định làm cái gì đâu, m bảo sửa findviewbyid thì đk rồi kia
+        //chạy lên k được à. định làm như cái lít hiện lên của m ý
+        //định làm cả cái dấu 3c chấm đấy luôn
+
       return inflater.inflate(R.layout.fragment_food, container, false);
 
 
