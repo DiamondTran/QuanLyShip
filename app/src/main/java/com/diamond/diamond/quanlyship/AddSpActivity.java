@@ -15,6 +15,6 @@ public class AddSpActivity extends AppCompatActivity {
 
     public void backhome(View view) {
         Intent intent= new Intent(AddSpActivity.this, HomeActivity.class);
-        startActivity(intent);
+
     }
 }
