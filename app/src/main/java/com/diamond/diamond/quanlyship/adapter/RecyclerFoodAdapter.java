@@ -23,12 +23,13 @@ private List<Food> foodList;
         this.foodList = foodList;
     }
 
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view;
         LayoutInflater inflater= LayoutInflater.from(context);
-        view= inflater.inflate(R.layout.item_cardview,parent,false);
+        view= inflater.inflate(R.layout.item_cardfoodview,parent,false);
         return new MyViewHolder(view);
     }
 
