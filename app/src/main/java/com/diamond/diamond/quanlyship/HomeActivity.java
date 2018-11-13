@@ -85,7 +85,9 @@ fab.setOnClickListener(new View.OnClickListener() {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.shop) {
+            Intent intent= new Intent(HomeActivity.this,AddDonHangActivity.class);
+            startActivity(intent);
             return true;
         }
 

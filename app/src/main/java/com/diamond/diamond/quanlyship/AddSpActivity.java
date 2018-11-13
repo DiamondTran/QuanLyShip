@@ -42,7 +42,7 @@ btnaddother= findViewById(R.id.addother);
         btnaddfood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-String
+
 
             }
         });
