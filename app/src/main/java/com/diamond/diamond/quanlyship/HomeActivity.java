@@ -42,13 +42,13 @@ public class HomeActivity extends AppCompatActivity
         tabLayout.setupWithViewPager(Pager);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-              Intent intent= new Intent(HomeActivity.this, AddSpActivity.class);
-              startActivity(intent);
-            }
-        });
+fab.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent= new Intent(HomeActivity.this, AddSpActivity.class);
+        startActivity(intent);
+    }
+});
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -108,7 +108,7 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_gopy) {
 
         } else if (id == R.id.nav_exit)
-
+finish();
         {
 
         }
