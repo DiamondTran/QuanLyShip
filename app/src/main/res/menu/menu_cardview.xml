@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/them"
+        android:title="Thêm Vào Đơn Hàng"
+        android:orderInCategory="100"
+        ></item>
+    <item
+    android:id="@+id/edit"
+    android:title="Chỉnh Sửa"
+    android:orderInCategory="100"
+    ></item>
+    <item
+        android:id="@+id/delete"
+        android:title="Xóa"
+        android:orderInCategory="100"
+        ></item>
+</menu>

@@ -33,10 +33,12 @@
         </LinearLayout>
 
     </android.support.v7.widget.Toolbar>
-<ListView
+<android.support.v7.widget.RecyclerView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/listdh"></ListView>
+    android:id="@+id/recyclerdh">
+
+</android.support.v7.widget.RecyclerView>
 
 <android.support.design.widget.TextInputEditText
     android:layout_width="match_parent"
